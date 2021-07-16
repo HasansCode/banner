@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: blue;
+    line-height: 0.9;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+#banner{
+    overflow: hidden;
+    background: rgba(4, 104, 79, 0.849);
+backdrop-filter: blur(200px);
+    height: 100vh;
+    padding: 100px;
+    padding-top: 150px !important;
+    
+}
+/* common css */
+.banner_banner{
+    position: relative;
+}
+
+.banner_position{
+    padding: 300px;
+    position: relative;}
+.first_banner{
+    background: url(../images/jeremy-bishop--mMEEkgj5fU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.second_banner{
+    background: url(../images/cole-keister-S7rqxivXbKk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third_banner{
+    background: url(../images/ali-kazal-jz_tfzT--cc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txt{
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.txt h3{
+    z-index: 999;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.fix_image{
+    z-index: 99;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
